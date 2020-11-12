@@ -2,10 +2,31 @@ using System.Collections.Generic;
 
 namespace PaymentContext.Domain.Entities {
   public class Student {
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-    public string Document { get; set; }
-    public string Email { get; set; }
-    public List<Subscription> Subscriptions { get; set; }
+    private IList<Subscription> _subscriptions;
+    
+    public Student(string firstName, string lastName, string document, string email) {
+      this.FirstName = firstName;
+      this.LastName = lastName;
+      this.Document = document;
+      this.Email = email;
+      _subscriptions = new List<Subscription>();
+    }
+
+    public string FirstName { get; private set; }
+    public string LastName { get; private set; }
+    public string Document { get; private set; }
+    public string Email { get; private set; }
+    public string Address { get; private set; }
+    public IReadOnlyCollection<Subscription> Subscriptions { get { 
+      return _subscriptions.ToArray();
+    } }
+  
+    public void AddSubscription(Subscription subscription) {
+      foreach (var sub in Subscription) {
+        sub.Inactivate()
+      }
+
+      _subscriptions.Add(subscription);
+    }
   }
 }
