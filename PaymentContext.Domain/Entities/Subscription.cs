@@ -1,15 +1,19 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+// using Flunt.Validations;
+using PaymentContext.Shared.Entities;
 
 namespace PaymentContext.Domain.Entities {
   public class Subscription {
     private IList<Payment> _payments;
 
     public Subscription(DateTime? expireDate) {
-      CreateDate = DateTime.Now;
-      LastUpdateDate = DateTime.Now;
-      ExpireDate = expireDate
-      Active = true;
-      _payments = new List<Payment>()
+      this.CreateDate = DateTime.Now;
+      this.LastUpdateDate = DateTime.Now;
+      this.ExpireDate = expireDate;
+      this.Active = true;
+      this._payments = new List<Payment>();
     }
 
     public DateTime CreateDate { get; private set; }
@@ -19,17 +23,17 @@ namespace PaymentContext.Domain.Entities {
     public IReadOnlyCollection<Payment> Payments { get; private set; }
   
     public void AddPayment(Payment payment) {
-      _payments.Add(payment)
+      this._payments.Add(payment);
     }
 
     public void Activate() {
-      Active = true;
-      LastUpdateDate = DateTime.Now
+      this.Active = true;
+      this.LastUpdateDate = DateTime.Now;
     }
     
     public void Inactivate() {
-      Active = false;
-      LastUpdateDate = DateTime.Now
+      this.Active = false;
+      this.LastUpdateDate = DateTime.Now;
     }
   }
 }

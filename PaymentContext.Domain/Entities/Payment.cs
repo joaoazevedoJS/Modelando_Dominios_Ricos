@@ -1,17 +1,20 @@
 using System;
+// using Flunt.Validations;
+using PaymentContext.Domain.ValueObjects;
+using PaymentContext.Shared.Entities;
 
 namespace PaymentContext.Domain.Entities {
   public abstract class Payment {
-    public Payment(DateTime paidDate, DateTime expireDate, decimal total, decimal totalPaid, string payer, string document, string address, string email) {
-      Number = number
-      PaidDate = paidDate
-      ExpireDate = expireDate
-      Total = total
-      TotalPaid = totalPaid
-      Payer = payer
-      Document = document
-      Address = address
-      Email = email
+    public Payment(DateTime paidDate, DateTime expireDate, decimal total, decimal totalPaid, string payer, Document document, Address address, Email email) {
+      this.Number = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 10).ToUpper();
+      this.PaidDate = paidDate;
+      this.ExpireDate = expireDate;
+      this.Total = total;
+      this.TotalPaid = totalPaid;
+      this.Payer = payer;
+      this.Document = document;
+      this.Address = address;
+      this.Email = email;
     }
 
     public string Number { get; private set; }
@@ -20,23 +23,8 @@ namespace PaymentContext.Domain.Entities {
     public decimal Total { get; private set; }
     public decimal TotalPaid { get; private set; }
     public string Payer { get; private set; }
-    public string Document { get; private set; }
-    public string Address { get; private set; }
-    public string Email { get; private set; }
-  }
-  
-  public class BoletoPayment : Payment {
-    public string BarCode { get; set; }
-    public string BoletoNumber { get; set; }
-  }
-  
-  public class CreditCardPayment : Payment {
-    public string CardHolderName { get; set; }
-    public string CardLastForNumber { get; set; }
-    public string LastTransactionNumber { get; set; }
-  }
-  
-  public class PayPalPayment : Payment {
-    public string TransactionCode { get; set; }   
+    public Document Document { get; private set; }
+    public Address Address { get; private set; }
+    public Email Email { get; private set; }
   }
 }
