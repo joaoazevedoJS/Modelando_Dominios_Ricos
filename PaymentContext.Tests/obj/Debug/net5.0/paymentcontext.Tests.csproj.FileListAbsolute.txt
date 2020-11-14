@@ -1,0 +1,5 @@
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Tests/obj/Debug/net5.0/paymentcontext.Tests.csprojAssemblyReference.cache
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Tests/obj/Debug/net5.0/paymentcontext.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Tests/obj/Debug/net5.0/paymentcontext.Tests.AssemblyInfoInputs.cache
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Tests/obj/Debug/net5.0/paymentcontext.Tests.AssemblyInfo.cs
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Tests/obj/Debug/net5.0/paymentcontext.Tests.csproj.CoreCompileInputs.cache

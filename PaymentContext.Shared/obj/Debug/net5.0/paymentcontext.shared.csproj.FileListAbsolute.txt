@@ -1,0 +1,12 @@
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/bin/Debug/net5.0/paymentcontext.shared.deps.json
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/bin/Debug/net5.0/paymentcontext.shared.dll
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/bin/Debug/net5.0/ref/paymentcontext.shared.dll
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/bin/Debug/net5.0/paymentcontext.shared.pdb
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/obj/Debug/net5.0/paymentcontext.shared.csprojAssemblyReference.cache
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/obj/Debug/net5.0/paymentcontext.shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/obj/Debug/net5.0/paymentcontext.shared.AssemblyInfoInputs.cache
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/obj/Debug/net5.0/paymentcontext.shared.AssemblyInfo.cs
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/obj/Debug/net5.0/paymentcontext.shared.csproj.CoreCompileInputs.cache
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/obj/Debug/net5.0/paymentcontext.shared.dll
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/obj/Debug/net5.0/ref/paymentcontext.shared.dll
+/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/obj/Debug/net5.0/paymentcontext.shared.pdb

@@ -33,26 +33,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Moura\\.nuget\\packages\\": {}
+    "/home/joao/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Moura\\Documents\\www\\PaymentContext\\paymentcontext.shared\\paymentcontext.shared.csproj",
+      "projectUniqueName": "/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/paymentcontext.shared.csproj",
       "projectName": "paymentcontext.shared",
-      "projectPath": "C:\\Users\\Moura\\Documents\\www\\PaymentContext\\paymentcontext.shared\\paymentcontext.shared.csproj",
-      "packagesPath": "C:\\Users\\Moura\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Moura\\Documents\\www\\PaymentContext\\paymentcontext.shared\\obj\\",
+      "projectPath": "/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/paymentcontext.shared.csproj",
+      "packagesPath": "/home/joao/.nuget/packages/",
+      "outputPath": "/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Moura\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/joao/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -91,7 +89,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
