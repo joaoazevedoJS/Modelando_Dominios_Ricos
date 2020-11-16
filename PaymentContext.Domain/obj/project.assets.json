@@ -10,6 +10,19 @@
         "runtime": {
           "lib/netstandard2.0/Flunt.dll": {}
         }
+      },
+      "PaymentContext.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "flunt": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/PaymentContext.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaymentContext.Shared.dll": {}
+        }
       }
     }
   },
@@ -25,38 +38,50 @@
         "flunt.nuspec",
         "lib/netstandard2.0/Flunt.dll"
       ]
+    },
+    "PaymentContext.Shared/1.0.0": {
+      "type": "project",
+      "path": "../PaymentContext.Shared/PaymentContext.Shared.csproj",
+      "msbuildProject": "../PaymentContext.Shared/PaymentContext.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "PaymentContext.Shared >= 1.0.0",
       "flunt >= 1.0.5"
     ]
   },
   "packageFolders": {
-    "/home/joao/.nuget/packages/": {}
+    "C:\\Users\\Moura\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Domain/Paymentcontext.domain.csproj",
-      "projectName": "Paymentcontext.domain",
-      "projectPath": "/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Domain/Paymentcontext.domain.csproj",
-      "packagesPath": "/home/joao/.nuget/packages/",
-      "outputPath": "/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Domain/obj/",
+      "projectUniqueName": "C:\\Users\\Moura\\Documents\\www\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+      "projectName": "PaymentContext.Domain",
+      "projectPath": "C:\\Users\\Moura\\Documents\\www\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+      "packagesPath": "C:\\Users\\Moura\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Moura\\Documents\\www\\PaymentContext\\PaymentContext.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/joao/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Moura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Moura\\Documents\\www\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+              "projectPath": "C:\\Users\\Moura\\Documents\\www\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -89,7 +114,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

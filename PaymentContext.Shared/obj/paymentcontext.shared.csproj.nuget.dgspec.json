@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/paymentcontext.shared.csproj": {}
+    "C:\\Users\\Moura\\Documents\\www\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {}
   },
   "projects": {
-    "/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/paymentcontext.shared.csproj": {
+    "C:\\Users\\Moura\\Documents\\www\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/paymentcontext.shared.csproj",
-        "projectName": "paymentcontext.shared",
-        "projectPath": "/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/paymentcontext.shared.csproj",
-        "packagesPath": "/home/joao/.nuget/packages/",
-        "outputPath": "/home/joao/Documents/CSharp/Modelando_Dominios_Ricos/PaymentContext.Shared/obj/",
+        "projectUniqueName": "C:\\Users\\Moura\\Documents\\www\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectName": "PaymentContext.Shared",
+        "projectPath": "C:\\Users\\Moura\\Documents\\www\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "packagesPath": "C:\\Users\\Moura\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moura\\Documents\\www\\PaymentContext\\PaymentContext.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/joao/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Moura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "paymentcontext.shared/1.0.0": {
+      "PaymentContext.Shared/1.0.0": {
         "dependencies": {
           "Flunt": "1.0.5"
         },
         "runtime": {
-          "paymentcontext.shared.dll": {}
+          "PaymentContext.Shared.dll": {}
         }
       },
       "Flunt/1.0.5": {
@@ -25,7 +25,7 @@
     }
   },
   "libraries": {
-    "paymentcontext.shared/1.0.0": {
+    "PaymentContext.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

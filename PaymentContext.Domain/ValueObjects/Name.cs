@@ -10,12 +10,16 @@ namespace PaymentContext.Domain.ValueObjects {
       AddNotifications(new Contract()
         .Requires()
         .HasMinLen(this.FirstName, 3, "Name.FirstName", "Nome deve conter pelo menos 3 caracteres")
-        .HasMinLen(this.LastNmae, 3, "Name.LastNmae", "Sobrenome deve conter pelo menos 3 caracteres")
+        .HasMinLen(this.LastName, 3, "Name.LastNmae", "Sobrenome deve conter pelo menos 3 caracteres")
         .HasMinLen(this.FirstName, 40, "Name.FirstName", "Nome deve conter até 40 caracteres")
       );
     }
     
     public string FirstName { get; private set; }
     public string LastName { get; private set; }
+
+    public override string ToString() {
+      return $"{this.FirstName} {this.LastName}";
+    }
   }    
 }
